@@ -49,6 +49,9 @@
   .burger-menu {
     position: relative;
     color: #ff856a;
+    .menu-item {
+      cursor: pointer;
+    }
     a {
       text-decoration: none;
       color: white;
@@ -127,4 +130,24 @@
       height: 25px;
     }
   }
+}
+.no-of-products {
+  background: #f57224;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 45px;
+  position: absolute;
+  top: -5px;
+  left: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  position: relative;
+  top: 5px;
 }

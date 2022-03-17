@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+.products-container {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  h1 {
+    background: linear-gradient(-200deg, #ff856a 50%, #efd5a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+.products-base {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  float: left;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.products-card {
+  margin-left: 50px;
+  display: block;
+  float: left;
+  h2 {
+    background: linear-gradient(-200deg, #ff856a 50%, #efd5a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 2px #ff856a, 0 0 1px #efd5a8;
+    font-size: 30px;
+    margin-top: -60px;
+  }
+  .products-card-image {
+    img {
+      width: 300px;
+    }
+  }
+  a {
+    background: linear-gradient(-200deg, #ff856a 50%, #efd5a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px #ff856a;
+
+    padding: 10px;
+  }
+  h5 {
+    background: linear-gradient(-200deg, #ff856a 50%, #efd5a8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}

@@ -1,6 +1,7 @@
 .home-container {
   width: 100%;
   height: auto;
+  background-color: black;
 }
 .home-base {
   width: 100%;
@@ -8,4 +9,9 @@
   height: auto;
   top: 10%;
   color: rgb(0, 0, 0);
+}
+.home-offer {
+  position: absolute;
+  top: 1100px;
+  background-color: black;
 }
